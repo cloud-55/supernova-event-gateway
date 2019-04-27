@@ -20,7 +20,12 @@ func main() {
 	router := routing.New()
 
 	router.Post("/api/v1/messages", func(ctx *routing.Context) error {
-		api.CreateConstellation(ctx)
+		api.PublishMessage(ctx)
+		return nil
+	})
+
+	router.Post("/api/v1/subscriptions", func(ctx *routing.Context) error {
+		api.SubscribeMessage(ctx)
 		return nil
 	})
 
