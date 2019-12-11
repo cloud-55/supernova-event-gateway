@@ -4,6 +4,7 @@
 
 Supernova Message Gateway is a platform that simplifies pub/sub on cloud providers.
 
+## Architecture
 
 ## Message providers
   * [Amazon Simple Notification Service](https://aws.amazon.com/sns/)
@@ -15,14 +16,10 @@ Supernova Message Gateway is a platform that simplifies pub/sub on cloud provide
   * All messages are stored on database (MongoDB)
   * Resend messages in case of subscription failures
 
-## Architecture
-
-
 ## How to build?
 Run `make` and copy the `smg` binary to a directory in your PATH.
 
 ## How to contribute?
-
 
 ## Mantainers
 
