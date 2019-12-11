@@ -6,9 +6,9 @@ Supernova Message Gateway is a platform that simplifies pub/sub on cloud provide
 
 
 ## Message providers
-  * Amazon Simple Notification Service
-  * Google PubSub Service
-  * Amazon MSK - Managed Streaming Kafka (Comming soon.)
+  * [Amazon Simple Notification Service](https://aws.amazon.com/sns/)
+  * [Google PubSub Service](https://cloud.google.com/pubsub/)
+  * [Amazon MSK](https://aws.amazon.com/msk/) (Comming soon.)
 
 ## Features
   * Publish messages to cloud services through API or CLI
