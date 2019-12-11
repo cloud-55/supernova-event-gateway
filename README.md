@@ -2,7 +2,7 @@
 
 ![alt text](http://snews.bnl.gov/popsci/crab.jpg)
 
-Supernova Message Gateway is a platform that simplifies pub/sub on cloud provider services.
+Supernova Message Gateway is a platform that simplifies pub/sub across cloud services.
 
 
 ## Architecture
