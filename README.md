@@ -1,10 +1,19 @@
-# SUPERNOVA
+# Supernova Message Gateway
 
 ![alt text](http://snews.bnl.gov/popsci/crab.jpg)
 
-SUPERNOVA MESSAGE GATEWAY is a platform that simplifies pub/sub on cloud providers.
+Supernova Message Gateway is a platform that simplifies pub/sub on cloud providers.
 
 
-## Installation
+## Architecture
 
-Run `make` and copy the `supernova` binary to a directory in your PATH.
+
+## How to build?
+Run `make` and copy the `smg` binary to a directory in your PATH.
+
+## How to contribute?
+
+
+## Mantainers
+
+Leo Morais - leonel@cloud55.io
