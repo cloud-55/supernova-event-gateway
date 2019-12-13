@@ -17,9 +17,9 @@ import (
 	//"sync/atomic"
 )
 
-func PublishMessage(ctx *routing.Context) error {
+var data resource.Data
 
-	var data resource.Data
+func PublishMessage(ctx *routing.Context) error {
 
 	e := json.Unmarshal(ctx.PostBody(), &data)
 
@@ -27,7 +27,7 @@ func PublishMessage(ctx *routing.Context) error {
 		fmt.Println(e)
 	}
 
-	response, err := dispatchMessageToProvider(data)
+	response, err := NewProviderDispatch(data).DispatchMessageToProvider()
 
 	if err != nil {
 		log.Fatal(err)

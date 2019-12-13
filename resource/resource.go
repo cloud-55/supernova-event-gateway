@@ -17,7 +17,7 @@ type Message struct {
 func (d *Data) GetMessageTopic() string {
 
 	//TODO: This needs to get Account ID from iam:GetUser. This method returns an ARN and the AccountID should be extracted from that.
-	if d.Provider == "aws" {
+	if d.Provider == "AwsProvider" {
 		return "arn:aws:sns:" + os.Getenv("AWS_REGION") + ":" + os.Getenv("AWS_ACCOUNT_ID") + ":" + d.Message.TopicName
 	}
 
